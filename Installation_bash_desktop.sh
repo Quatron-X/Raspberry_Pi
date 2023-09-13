@@ -1,5 +1,5 @@
 # ROS Deskop Installation
-# Copter-4.3.7
+# Copter-4.4.0
 # using ~/.bashrc
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'

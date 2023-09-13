@@ -15,7 +15,7 @@ cd ~
 sudo apt install git
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
-git checkout Copter-4.3.7
+git checkout Copter-4.4.0
 git submodule update --init --recursive
 sudo apt-get install python3-dev python3-opencv python3-wxgtk4.0 python3-pip python3-matplotlib python3-lxml python3-pygame
 pip3 install PyYAML mavproxy --user

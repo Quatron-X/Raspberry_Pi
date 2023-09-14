@@ -26,6 +26,6 @@ echo "export PATH=/usr/lib/ccache:$PATH" >> ~/.bashrc
 sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
 chmod a+x install_geographiclib_datasets.sh
-./install_geographiclib_datasets.sh
+sudo ./install_geographiclib_datasets.sh
 sudo apt update
 sudo apt install python3-opencv
